@@ -1,0 +1,32 @@
+{
+  "name": "generic-pool-decorator",
+  "version": "1.0.0",
+  "description": "a decorator for generic-pool",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js test.js",
+    "lint-fix": "eslint --fix index.js test.js",
+    "test": "tap test.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandfox/generic-pool-decorator.git"
+  },
+  "keywords": [
+    "generic-pool",
+    "decorator"
+  ],
+  "author": "sandfox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandfox/generic-pool-decorator/issues"
+  },
+  "homepage": "https://github.com/sandfox/generic-pool-decorator#readme",
+  "devDependencies": {
+    "eslint": "^3.9.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.3.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "tap": "^8.0.0"
+  }
+}
